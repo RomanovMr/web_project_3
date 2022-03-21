@@ -1,0 +1,38 @@
+.cover {
+    margin: 0 auto;
+    max-width: 1184px;
+    min-height: 740px;
+    background-image: url(../../images/cover__background.png);
+    background-size: cover;
+    position: relative;
+  }
+  
+  .cover::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: #2a2c2f;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition-duration: 0.5s;
+  }
+  
+  .cover:hover::before {
+    opacity: 0.8;
+  }
+
+@media screen and (max-width:768px) {
+    .cover {
+        width: 100%;
+        min-height: 746px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .cover {
+        width: 100%;
+        min-height: 254px;
+    }
+}

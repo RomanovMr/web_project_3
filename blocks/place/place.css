@@ -1,0 +1,30 @@
+.place {
+    display: grid;
+    max-width: 984px;
+    margin-bottom: 80px;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 48px 40px;
+    grid-template-areas: 
+    "title artist"
+    "picture text"
+    "button text";
+}
+
+@media screen and (max-width:768px) {
+    .place {
+        grid-gap: 48px 28px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .place {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        grid-template-areas: 
+        "title"
+        "artist"
+        "picture"
+        "text"
+        "button";
+    }
+}
