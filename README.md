@@ -11,13 +11,18 @@ This is a project that showcases the hometowns of some of Practicum's employees.
 **Features**  
   
 In project were used:
-BEM methodology
-Flexbox
-Grid
-Pseudoclases hover and before
-@media for different screen sizes
+* BEM methodology
+* Flexbox
+* Grid
+* Pseudoclases hover and before
+* @media for different screen sizes
   
 **Improve**  
   
-More screen resolutions for smoother transition
-Elongate grid for larger devices
+* More screen resolutions for smoother transition
+* Elongate grid for larger devices
+
+**Link**  
+
+* https://romanovmr.github.io/web_project_3/
+

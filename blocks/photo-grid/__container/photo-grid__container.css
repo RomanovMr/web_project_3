@@ -2,8 +2,9 @@
     display: grid;
     grid-template-rows: repeat(2, 1fr);
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 16px;
+    gap: 16px;
     margin-bottom: 92px;
+    list-style-type: none;
 }
 
 @media screen and (max-width:768px) {
@@ -19,6 +20,6 @@
         grid-template-columns: 1fr;
         grid-template-rows: repeat(8, 1fr);
         margin-bottom: 62px;
-        grid-gap: 12px;
+        gap: 12px;
     }
 }

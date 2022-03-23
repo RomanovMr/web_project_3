@@ -5,3 +5,10 @@
     justify-content: flex-end;
     grid-area: artist;
 }
+
+@media screen and (max-width:400px) {
+    .place__artist {
+        margin: auto;
+        width: 288px;
+    }
+}

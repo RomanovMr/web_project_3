@@ -3,7 +3,7 @@
     max-width: 984px;
     margin-bottom: 80px;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 48px 40px;
+    gap: 48px 40px;
     grid-template-areas: 
     "title artist"
     "picture text"
@@ -12,12 +12,14 @@
 
 @media screen and (max-width:768px) {
     .place {
-        grid-gap: 48px 28px;
+        gap: 48px 28px;
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:550px) {
     .place {
+        margin-top: 62px;
+        margin-bottom: 64px;
         grid-template-columns: 1fr;
         gap: 30px;
         grid-template-areas: 

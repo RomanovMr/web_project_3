@@ -2,11 +2,13 @@
     width: 270px;
     height: 70px;
     margin: 34px auto 90px;
+    padding: 0;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:350px) {
     .header__image {
         width: 200px;
+        height: 51.85px;
         margin: 20px auto 50px;
     }
 }
