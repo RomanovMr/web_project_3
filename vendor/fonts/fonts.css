@@ -7,11 +7,11 @@
 @font-face {
     src: url(./Inter-Black.woff);
     font-family: "Inter";
-    font-weight: bold;
+    font-weight: 900;
 }
 
 @font-face {
     src: url(./Inter-SemiBold.woff);
     font-family: "Inter";
-    font-weight: normal;
+    font-weight: 600;
 }

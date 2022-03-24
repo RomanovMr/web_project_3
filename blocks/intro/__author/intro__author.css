@@ -1,7 +1,7 @@
 .intro__author {
     max-width: 720px;
     margin: 10px 0 32px;
-    font-family: "Inter", "Arial";
+    font-family: "Inter", "Arial", sans-serif;
     font-size: 24px;
     font-style: normal;
     font-weight: 400;
