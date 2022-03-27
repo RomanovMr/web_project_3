@@ -3,6 +3,7 @@
     max-width: 984px;
     margin-bottom: 80px;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
     gap: 48px 40px;
     grid-template-areas: 
     "title artist"
@@ -10,16 +11,18 @@
     "button text";
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:900px) {
     .place {
+        max-width: 100%;
         gap: 48px 28px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto 1fr;
     }
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:620px) {
     .place {
-        margin-top: 62px;
-        margin-bottom: 64px;
+        margin: 0 auto;
         grid-template-columns: 1fr;
         gap: 30px;
         grid-template-areas: 
@@ -28,5 +31,19 @@
         "picture"
         "text"
         "button";
+    }
+
+    .place + .place {
+        margin-top: 50px;
+        margin-bottom: 0;
+    }
+
+    .place:first-of-type {
+        margin-top: 62px;
+        margin-bottom: 50px;
+    }
+
+    .place:last-of-type {
+        margin-bottom: 64px;
     }
 }
