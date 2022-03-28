@@ -6,9 +6,14 @@
     grid-area: artist;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:620px) {
     .place__artist {
         margin: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .place__artist {
         width: 288px;
     }
 }

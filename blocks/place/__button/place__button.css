@@ -21,9 +21,14 @@
     background-color: #0063D2;
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:620px) {
     .place__button {
         margin: auto;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .place__button {
         padding: 13px 40px;
     }
 }
