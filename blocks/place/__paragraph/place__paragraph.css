@@ -1,3 +1,4 @@
 .place__paragraph {
     grid-area: text;
+    max-width: 100%;
 }
